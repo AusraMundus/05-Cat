@@ -53,8 +53,17 @@ body {
 
 .title > span {
     display: block;
-    font-weight: 100;
+    font-weight: 100px;
     margin-bottom: -20px;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 4px;
+    background-color: #6CBEDD;
+    margin-top: 10px;
 }
 
 .description {
